@@ -1,0 +1,50 @@
+* git init 
+se inicializo el repositorio en mi carpeta local
+
+*$ echo "# github" >> README.md
+ejecuta #github en el repositorio dicho dato esta en el README
+
+*git add README.md 
+añade el archivo leeme
+
+*git commit -m "first commit"
+realice mi primer comentario
+
+*git remote add origin https://github.com/camilojuan/github.git
+digo que este repositorio local va estar eblazado con el link discreto
+
+*git push -u origin master
+los cambios que tengo en local se montaran al repositorio paaraque
+se visualice la master en el repositorio
+
+*git checkout -b qa
+creo el hambiente de qa parado en master
+
+*git push origin qa
+subo los cambios realizados y para que se refleje qa en el repositorio
+
+*git checkout master
+me cambio a la rama principal master
+
+*git checkout -b dev
+parado en master creo la otra rama dev
+
+*git status 
+veo el status enq ue esta las ramas actualmente no hay cambios ni nada
+
+*git branch
+visualizo las ramas que hay localmente y en cual estoy
+
+*git checkout -b feature-variables
+estando parado en dev creo un feacture el cual lo llamo feacture-variables 
+
+*git add index.html 
+despues de dar un status en la rama actual me doy cuenta que se agrego un archivo al repositorio local y con este comando lo que hago es agregarlo al feacture actual
+
+* git commit -m"mensaje por que se agrego"
+este comando siempre se ejecuta despues de añadir un archivo y se da una explicacion breve que se hizo
+
+ *git push origin feature-variables 
+ subo los cambios realizados en la fecture y claramente se sube el archivo que le agregue
+
+ *cada que modifico un archivo tengo que darle add y despues el commit 
